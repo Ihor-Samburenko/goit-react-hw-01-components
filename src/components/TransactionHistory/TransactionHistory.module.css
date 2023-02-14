@@ -1,0 +1,35 @@
+.container {
+  text-align: center;
+  background-color: lightblue;
+}
+
+.transactionHistory {
+  margin: 0 50px 0 50px;
+  width: 420px;
+
+  border-collapse: collapse;
+  background-color: rgb(233 238 248);
+}
+
+.transactionList {
+  text-align: center;
+}
+
+th {
+  height: 50px;
+  color: rgb(240, 235, 235);
+  padding: 10px;
+  border: 1px solid #959090;
+  background-color: rgb(93 184 246);
+}
+
+table tr:nth-child(2n-1) {
+  background-color: #fff;
+}
+
+td {
+  padding: 10px;
+  font-family: roboto;
+  color: #5c5252;
+  border: 1px solid #959090;
+}
